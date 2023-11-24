@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PokemonCardApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="tp4-px-GOK">
+                                <rect key="frame" x="0.66666666666665719" y="135" width="392" height="582"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="bWx-gC-Jgf">
+                                        <rect key="frame" x="0.0" y="0.0" width="392" height="178"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images/charmender" translatesAutoresizingMaskIntoConstraints="NO" id="knt-qo-Zc0">
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="178"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="178" id="3k2-ae-R9d"/>
+                                                    <constraint firstAttribute="width" constant="128" id="dpi-qg-7P1"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images/arcanine" translatesAutoresizingMaskIntoConstraints="NO" id="KjS-6s-vf7">
+                                                <rect key="frame" x="132" y="0.0" width="128" height="178"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="128" id="aLx-Hy-GN6"/>
+                                                    <constraint firstAttribute="height" constant="178" id="pxG-ni-NaQ"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images/charizard" translatesAutoresizingMaskIntoConstraints="NO" id="DXp-w2-CHh">
+                                                <rect key="frame" x="264" y="0.0" width="128" height="178"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="128" id="efN-1E-b9m"/>
+                                                    <constraint firstAttribute="height" constant="178" id="nYO-6g-N2n"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="v9i-g1-TWk">
+                                        <rect key="frame" x="0.0" y="202" width="392" height="178"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images/mewtwo" translatesAutoresizingMaskIntoConstraints="NO" id="Ua3-G0-f57">
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="178"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="178" id="4LU-v9-9Ns"/>
+                                                    <constraint firstAttribute="width" constant="128" id="oyB-qC-lb2"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images/slaking" translatesAutoresizingMaskIntoConstraints="NO" id="Lfj-a9-BHw">
+                                                <rect key="frame" x="132" y="0.0" width="128" height="178"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="178" id="K0N-a8-7nq"/>
+                                                    <constraint firstAttribute="width" constant="128" id="tYm-dn-rq1"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images/bulbasaur" highlightedImage="Images/slaking" translatesAutoresizingMaskIntoConstraints="NO" id="eUY-UC-EEh">
+                                                <rect key="frame" x="264" y="0.0" width="128" height="178"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="178" id="Vdl-mb-SLt"/>
+                                                    <constraint firstAttribute="width" constant="128" id="jbN-RO-fBF"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="uGD-nU-yjd">
+                                        <rect key="frame" x="0.0" y="404" width="392" height="178"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images/magikarp" translatesAutoresizingMaskIntoConstraints="NO" id="LDl-GT-Dbs">
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="178"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="128" id="1zE-wB-QrG"/>
+                                                    <constraint firstAttribute="height" constant="178" id="HaH-k7-oZW"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images/ludicolo" translatesAutoresizingMaskIntoConstraints="NO" id="sBh-a2-h0j">
+                                                <rect key="frame" x="132" y="0.0" width="128" height="178"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="178" id="0Tw-rh-ynM"/>
+                                                    <constraint firstAttribute="width" constant="128" id="TdW-mF-DQx"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images/jigglypuff" translatesAutoresizingMaskIntoConstraints="NO" id="3o7-BL-sbn">
+                                                <rect key="frame" x="264" y="0.0" width="128" height="178"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="128" id="8yS-1d-C7B"/>
+                                                    <constraint firstAttribute="height" constant="178" id="nse-wk-Mfg"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tp4-px-GOK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D17-Bq-2fP"/>
+                            <constraint firstItem="tp4-px-GOK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gAF-Kg-p56"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113.74045801526717" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Images/arcanine" width="734" height="1024"/>
+        <image name="Images/bulbasaur" width="734" height="1024"/>
+        <image name="Images/charizard" width="734" height="1024"/>
+        <image name="Images/charmender" width="734" height="1024"/>
+        <image name="Images/jigglypuff" width="734" height="1024"/>
+        <image name="Images/ludicolo" width="734" height="1024"/>
+        <image name="Images/magikarp" width="734" height="1024"/>
+        <image name="Images/mewtwo" width="734" height="1024"/>
+        <image name="Images/slaking" width="734" height="1024"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
